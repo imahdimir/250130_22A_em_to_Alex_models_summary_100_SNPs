@@ -1,0 +1,20 @@
+Model 2 Summary (Logistic Regression):
+
+Call:
+lm(formula = g1_minus_g2 ~ g1_minus_g2_imp, data = filtered_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.00007 -0.00007 -0.00007 -0.00007  0.99993 
+
+Coefficients:
+                  Estimate Std. Error  t value Pr(>|t|)    
+(Intercept)      7.018e-05  3.670e-04    0.191    0.848    
+g1_minus_g2_imp -9.875e-01  1.790e-03 -551.763   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.05065 on 19050 degrees of freedom
+Multiple R-squared:  0.9411,	Adjusted R-squared:  0.9411 
+F-statistic: 3.044e+05 on 1 and 19050 DF,  p-value: < 2.2e-16
+
