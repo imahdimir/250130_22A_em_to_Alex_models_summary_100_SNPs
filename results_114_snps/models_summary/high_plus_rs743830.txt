@@ -1,0 +1,20 @@
+Model 1 Summary (Linear Regression):
+
+Call:
+lm(formula = g1_plus_g2 ~ g1_minus_g2_imp, data = filtered_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.7780  0.2220  0.2220  0.2220  0.2639 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     3.778042   0.004063 929.790  < 2e-16 ***
+g1_minus_g2_imp 0.041926   0.012604   3.326 0.000882 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5608 on 19050 degrees of freedom
+Multiple R-squared:  0.0005805,	Adjusted R-squared:  0.000528 
+F-statistic: 11.06 on 1 and 19050 DF,  p-value: 0.0008816
+
